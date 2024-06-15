@@ -3,11 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  Arial, sans-serif;
 }
 /* Nav bar css */
 #menu{
-    background: linear-gradient(red,blue);
-    height: 100px;
+    background: linear-gradient(rgb(0, 225, 255),rgb(231, 231, 236));
+    height: 150px;
     display: flex;
+    /* margin-top: 20px; */
     justify-content: space-around;
+}
+#menu-img{
+    margin-top: 25px;
+}
+#menu img{
+    height: 100px;
+    width: 100px;
+    
+}
+#items{
+    margin-top: 70px;
+}
+
+ul{
+  list-style-type: none;
+}
+ul li{
+    /* margin-top: 40px; */
+    display: inline;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
